@@ -1,0 +1,139 @@
+.chat-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  border: none;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .left-side div,
+.right-side div {
+  border: 1px solid #e2e2e2;
+} */
+
+.left-side {
+  flex: 2;
+}
+
+.right-side {
+  flex: 8;
+}
+.messages-dark{
+  flex: 1;
+  background-color: black;
+}
+
+
+
+.user-list,
+.messages {
+  flex: 1;
+}
+
+.user-list__user {
+  cursor: pointer;
+  display: flex;
+  padding: 16px;
+  background-color: white;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.user-list-dark {
+  background-color: black;
+  color: #e2e2e2;
+  flex: 1;
+}
+.user-list__user-dark{
+  cursor: pointer;
+  display: flex;
+  padding: 16px;
+  background-color: black;
+  border-bottom: 1px solid #68b7ff;
+}
+
+.user-list__user:hover {
+  background-color: #e2e2e2;
+}
+
+.search-input-div {
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  box-sizing: border-box;
+
+}
+.search-input-div-dark{
+  padding: 1px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+.search-input-div-dark input{
+  background-color: black;
+  color: white;
+}
+
+.userHeader {
+  padding: 8px;
+  margin: 16px;
+}
+.message-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+ 
+  
+}
+.message-container.from-me {
+  justify-content: flex-end;
+  border: none;
+  
+}
+.message {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 60%;
+  border: 1px solid #68b7ff;
+  border-radius: 30px;
+}
+
+.message-dark {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 60%;
+  background-color: black;
+  color: white;
+  border: 1px solid #68b7ff;
+  border-radius: 30px;
+}
+
+.message-input {
+  display: flex;
+  
+}
+.message-input input {
+  flex: 1;
+  
+}
+.message-input-dark {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.message-input-dark input{
+ 
+  background-color: black;
+  color: white;
+  flex: 1;
+}

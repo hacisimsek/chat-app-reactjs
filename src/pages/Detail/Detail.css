@@ -1,0 +1,88 @@
+.fullbody{
+    background-color: black;
+    height: 100%;
+    color: white;
+}
+.detail-body {
+    height: 25%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.detail-body-dark {
+    height: 25%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    background-color: black;
+}
+/* .detail-body .row {
+
+} */
+/* .detail-body .row-dark{
+    border: 1px solid efefef;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    width: 600px;
+} */
+.row{
+    padding: 2rem;
+}
+
+.button-link{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+
+}
+.button-link img{
+    border: 1px solid #F3F3F3;
+    border-radius: 20%;
+    padding: 5px;
+    background-color: #F3F3F3;
+}
+.button-link button:hover{
+    border: none;
+    cursor: pointer;
+}
+.detail-name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.detail-name-dark{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: blanchedalmond;
+}
+.detail-span{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.detail-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.detail-foto{
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-body img{
+    margin: 1rem;
+}

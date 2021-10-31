@@ -1,0 +1,37 @@
+.UserHeader{
+    padding: 8px;
+    display: flex;
+    
+}
+.UserHeader-dark{
+    padding: 8px;
+    display: flex;
+    background-color: black;
+}
+
+.UserHeader-family{
+    margin: 16px;
+    border: none;
+    flex: 1;
+    
+}
+.UserHeader-family-dark{
+    margin: 16px;
+    border: none;
+    background-color: black;
+    color: #C8C8C8;
+    outline: none;
+    border: none;
+    flex: 1;   
+}
+.headerImg{
+    border-radius: 100px;
+}
+.detail-button{
+    width: 50px;
+    height: 3rem;
+    border-radius: 20%;
+    border: 1px solid white ;
+    background-color: #F3F3F3;
+    ;
+}

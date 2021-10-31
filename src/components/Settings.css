@@ -1,0 +1,18 @@
+.settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.settings-dark{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: black ;
+}
+.right-button {
+  margin-left: 3px;
+}
+.button-logout{
+  padding: 4px;
+  border: none;
+}
